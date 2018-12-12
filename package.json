@@ -4,18 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "redux": "^4.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0"
