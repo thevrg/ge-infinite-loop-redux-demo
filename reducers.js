@@ -1,3 +1,9 @@
 
 export const initialState = {};
-export const myReducer = (state = initialState, action) => state;
+export const myReducer = 
+(state, action) => {
+    if (!state) {
+        state = initialState;
+    }
+    return state;
+};
